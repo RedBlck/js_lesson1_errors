@@ -17,15 +17,16 @@
     let b = 500;
     let c = "hello";
     let d = "okten";
-    const x = 515;
+    const x = 515;    // -------- const x = 'constant value';
     {
         console.log(a);
+        // x = 'new value'; ------------ константу не можна змінювати
     }
-    let y = 888;
+    let y = 888; //----- let b = 'new value'; так як змінна *b* уже була задана, я вирішив змінити її на змінну 'y', яка не задана але використовується нижче
 
     let result = 100 + y;
 
-    console.log(result);
+    console.log(result);  //---------- console(result);
 
 
 </script>
